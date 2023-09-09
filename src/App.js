@@ -61,14 +61,24 @@ function App() {
         <h1 className="App-title">In Loving Memory of Buster</h1>
         <p className="memorial-text">
           "In loving memory of our dear Buster, who brought endless joy and happiness into our lives. Buster was more
-          than just a pet; he was a loyal companion, a source of comfort, and a true member of our family.</p>
-        <p className="memorial-text">We will forever cherish the special moments we shared with him, from playful days in
+          than just a pet; he was a loyal companion, a source of comfort, and a true member of our family.
+        </p>
+
+        <p className="memorial-text">
+          We will forever cherish the special moments we shared with him, from playful days in
           the park to quiet nights by the fireplace.{' '}. Buster's boundless energy, unwavering loyalty, and gentle nature
-          touched the hearts of everyone he met.</p>
-        <p className="memorial-text">His wagging tail and affectionate kisses brightened even the darkest days.
+          touched the hearts of everyone he met.
+        </p>
+
+        <p className="memorial-text">
+          His wagging tail and affectionate kisses brightened even the darkest days.
           Buster's memory will forever live on in our hearts. As we say goodbye to our beloved friend,
-          we take solace in knowing that he is now resting peacefully.</p>
-        <p className="memorial-text">R.I.P. Little Man." "Until we meet again, dear Buster."</p>
+          we take solace in knowing that he is now resting peacefully.
+        </p>
+
+        <p className="memorial-text">
+          R.I.P. Little Man." "Until we meet again, dear Buster."
+        </p>
       </header>
       <div className="image-gallery">
         {images.map((image, index) => (
