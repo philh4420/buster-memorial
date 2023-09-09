@@ -77,7 +77,7 @@ function App() {
             key={index}
             onClick={() => openModal(image)}
           >
-            <img src={image} alt={`Image ${index + 1}`} />
+            <img src={image} alt={`Buster Memorial ${index + 1}`} />
           </div>
         ))}
         {loading && <p className="loading">Loading...</p>}
